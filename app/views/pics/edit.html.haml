@@ -2,9 +2,9 @@
 	.row
 		.panel.panel-default
 			.panel-heading
-				%h1 Edit Pic
+				%h1 Edit your post
 			.panel-body
 				.current_image
-					%strong.center Right Now
+					%strong.center This is what your picture currently looks like:
 					= image_tag @pic.image.url(:medium)
 				= render 'form'
