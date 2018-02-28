@@ -1,25 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Using Ruby 2.4
 
-Things you may want to cover:
+* Utilized Rails, SQL, Homebrew, ImageMagick, and PaperClip
+(See gem file for a complete list of Gems used)
 
-* Ruby version
+* Instagram Mimic site functionalities:
+1. Create new user/ sign up
+2. Sign in
+3. Post new picture
+4. Edit post (only available to post's owner)
+5. Delete post (only available to post's owner)
+6. Like post (available to both post's owner and other users)
+7. Newsfeed page to see posts from all users
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* How to run
+1. Clone repository
+2. $ bundle install
+3. $ rails db migrate
+4. $ rails server
+5. Visit localhost:3000 (chrome preferrable)
+6. Interact with Instagram Mimic!
 
 * ...
 # InstagramMimic
